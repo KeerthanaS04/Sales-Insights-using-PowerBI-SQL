@@ -24,10 +24,10 @@ SQL Commands used are:
 
 6. **Show transactions in 2020 joined by the date table:**
 
-`SELECT t.*, d.* `
-`FROM transactions t `
-`INNER JOIN date d ON t.order_date = d.date `
-`WHERE d.year = 2020;`
+`SELECT t.*, d.* 
+FROM transactions t 
+INNER JOIN date d ON t.order_date = d.date 
+WHERE d.year = 2020;`
 
 7. **Show total revenue in the year 2020:**
 
