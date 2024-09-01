@@ -34,25 +34,38 @@ SQL Commands used are:
 
 7. **Show total revenue in the year 2020:**
 
-`SELECT SUM(t.sales_amount) AS total_revenue `
-`FROM transactions t `
-`INNER JOIN date d ON t.order_date = d.date `
-`WHERE d.year = 2020 `
-`  AND (t.currency = 'INR' OR t.currency = 'USD');`
+`SELECT SUM(t.sales_amount) AS total_revenue`
+
+`FROM transactions t`
+
+`INNER JOIN date d ON t.order_date = d.date`
+
+`WHERE d.year = 2020`
+
+`AND (t.currency = 'INR' OR t.currency = 'USD');`
 
 8. **Show total revenue in January 2020:**
 
-`SELECT SUM(t.sales_amount) AS january_revenue `
-`FROM transactions t `
-`INNER JOIN date d ON t.order_date = d.date `
-`WHERE d.year = 2020 `
-`  AND d.month_name = 'January' `
-`  AND (t.currency = 'INR' OR t.currency = 'USD');`
+`SELECT SUM(t.sales_amount) AS january_revenue`
+
+`FROM transactions t`
+
+`INNER JOIN date d ON t.order_date = d.date`
+
+`WHERE d.year = 2020`
+
+`AND d.month_name = 'January'`
+
+`AND (t.currency = 'INR' OR t.currency = 'USD');`
 
 9. **Show total revenue in Chennai for the year 2020:**
 
-SELECT SUM(t.sales_amount) AS chennai_revenue `
-`FROM transactions t `
-`INNER JOIN date d ON t.order_date = d.date `
-`WHERE d.year = 2020 `
-`  AND t.market_code = 'Mark001';`
+`SELECT SUM(t.sales_amount) AS chennai_revenue`
+
+`FROM transactions t`
+
+`INNER JOIN date d ON t.order_date = d.date`
+
+`WHERE d.year = 2020`
+
+`AND t.market_code = 'Mark001';`
