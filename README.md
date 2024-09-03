@@ -1,5 +1,8 @@
 # Sales-Insights-using-PowerBI-SQL
 
+![proj_3](https://github.com/user-attachments/assets/55960992-01a9-4ca4-a091-9fcacab145a4)
+
+
 SQL Commands used are:
 
 1. **Show all customer records**
