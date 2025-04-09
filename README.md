@@ -1,7 +1,12 @@
 # Sales-Insights-using-PowerBI-SQL
 
 ![proj_3](https://github.com/user-attachments/assets/55960992-01a9-4ca4-a091-9fcacab145a4)
+**Insights**:
+1. Built interactive dashboards to visualize key metrics like revenue (₹984.81M) and sales quantity (2M), with market-wise and product-wise breakdowns.
 
+2. Implemented slicers and trend analysis to enable time-based filtering and track revenue trends across months and years.
+
+3. Identified top customers and products using bar charts, highlighting major contributors and potential data quality issues (e.g., blank product entries).
 
 SQL Commands used are:
 
